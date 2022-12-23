@@ -1,9 +1,9 @@
 
 {
-	"name": "js_practice_march2020",
+	"name": "roman_number_converters",
 	"version": "1.0.0",
 	"type": "module",
-	"description": "A repository of JavaScript challenges for you to work on throughout the course",
+	"description": "A repository of roman number converters that convert a roman number to integer number and vice versa.",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest",
@@ -11,15 +11,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/techreturners/js_practice_march2020.git"
+		"url": "git+https://github.com/asayda01/roman_kata.git"
 	},
 	"keywords": [],
-	"author": "Tech Returners",
+	"author": "asayda01",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/techreturners/js_practice_march2020/issues"
+		"url": "https://github.com/asayda01/roman_kata/issues"
 	},
-	"homepage": "https://github.com/techreturners/js_practice_march2020#readme",
+	"homepage": "https://github.com/asayda01/roman_kata#readme",
 	"devDependencies": {
 		"@babel/core": "^7.20.2",
 		"@babel/preset-env": "^7.20.2",

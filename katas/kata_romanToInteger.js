@@ -1,6 +1,7 @@
 export function romanToInteger (str) {
 
   let s = str.toUpperCase();
+
   if (s.length === 0) return 0;
   else if (s.length >1) 
   {

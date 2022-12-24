@@ -18,19 +18,20 @@ export function integerToRoman (number) {
 
   let str = '';
 
-  for (let i in map_roman) {
-    let temp_val = map_roman[i];
-    while (number >= temp_val) {
+  for (let i in map_roman) 
+  {
+    while (number >= map_roman[i]) 
+    {
       str += i;
-      number -= temp_val;
-      }
-    };
-    
+      number -= map_roman[i];
+    }
+  };    
+  
   return str;
-
 };
 
- /*
+/*
+
 console.log(  integerToRoman (  3      )   ); // "III"
 console.log(  integerToRoman (  100    )   ); // "C"
 console.log(  integerToRoman (  12     )   ); // "XII"
@@ -43,4 +44,5 @@ console.log(  integerToRoman (  2001   )   ); // "MMI"
 console.log(  integerToRoman (  800    )   ); // "DCCC"
 console.log(  integerToRoman (  700    )   ); // "DCC" 
 console.log(  integerToRoman (  300    )   ); // "CCC"
+
 */
